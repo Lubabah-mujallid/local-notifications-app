@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		84ECBDB527709D9A00EEC7D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECBDB427709D9A00EEC7D0 /* AppDelegate.swift */; };
 		84ECBDB727709D9A00EEC7D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECBDB627709D9A00EEC7D0 /* SceneDelegate.swift */; };
-		84ECBDB927709D9A00EEC7D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECBDB827709D9A00EEC7D0 /* ViewController.swift */; };
+		84ECBDB927709D9A00EEC7D0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECBDB827709D9A00EEC7D0 /* MainViewController.swift */; };
 		84ECBDBC27709D9A00EEC7D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ECBDBA27709D9A00EEC7D0 /* Main.storyboard */; };
 		84ECBDBF27709D9A00EEC7D0 /* local_notifications_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84ECBDBD27709D9A00EEC7D0 /* local_notifications_app.xcdatamodeld */; };
 		84ECBDC127709D9B00EEC7D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ECBDC027709D9B00EEC7D0 /* Assets.xcassets */; };
 		84ECBDC427709D9B00EEC7D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ECBDC227709D9B00EEC7D0 /* LaunchScreen.storyboard */; };
+		84ECBDD027744BA700EEC7D0 /* LogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECBDCF27744BA700EEC7D0 /* LogTableViewController.swift */; };
+		84ECBDD227744FEA00EEC7D0 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECBDD127744FEA00EEC7D0 /* MyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84ECBDB127709D9A00EEC7D0 /* local notifications app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "local notifications app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ECBDB427709D9A00EEC7D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84ECBDB627709D9A00EEC7D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84ECBDB827709D9A00EEC7D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84ECBDB827709D9A00EEC7D0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		84ECBDBB27709D9A00EEC7D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84ECBDBE27709D9A00EEC7D0 /* local_notifications_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = local_notifications_app.xcdatamodel; sourceTree = "<group>"; };
 		84ECBDC027709D9B00EEC7D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84ECBDC327709D9B00EEC7D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84ECBDC527709D9B00EEC7D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ECBDCF27744BA700EEC7D0 /* LogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableViewController.swift; sourceTree = "<group>"; };
+		84ECBDD127744FEA00EEC7D0 /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 			children = (
 				84ECBDB427709D9A00EEC7D0 /* AppDelegate.swift */,
 				84ECBDB627709D9A00EEC7D0 /* SceneDelegate.swift */,
-				84ECBDB827709D9A00EEC7D0 /* ViewController.swift */,
+				84ECBDB827709D9A00EEC7D0 /* MainViewController.swift */,
+				84ECBDD127744FEA00EEC7D0 /* MyTimer.swift */,
+				84ECBDCF27744BA700EEC7D0 /* LogTableViewController.swift */,
 				84ECBDBA27709D9A00EEC7D0 /* Main.storyboard */,
 				84ECBDC027709D9B00EEC7D0 /* Assets.xcassets */,
 				84ECBDC227709D9B00EEC7D0 /* LaunchScreen.storyboard */,
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84ECBDBF27709D9A00EEC7D0 /* local_notifications_app.xcdatamodeld in Sources */,
-				84ECBDB927709D9A00EEC7D0 /* ViewController.swift in Sources */,
+				84ECBDD227744FEA00EEC7D0 /* MyTimer.swift in Sources */,
+				84ECBDD027744BA700EEC7D0 /* LogTableViewController.swift in Sources */,
+				84ECBDB927709D9A00EEC7D0 /* MainViewController.swift in Sources */,
 				84ECBDB527709D9A00EEC7D0 /* AppDelegate.swift in Sources */,
 				84ECBDB727709D9A00EEC7D0 /* SceneDelegate.swift in Sources */,
 			);
